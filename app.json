@@ -1,0 +1,68 @@
+{
+  "expo": {
+    "name": "dormguide",
+    "icon": "./dormguide.png",
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "package": "dorm.finder",
+      "permissions": [
+        "android.permission.NOTIFICATIONS",
+        "android.permission.CAMERA"
+      ],
+      "blockedPermissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_BACKGROUND_LOCATION",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.READ_CONTACTS",
+        "android.permission.WRITE_CONTACTS",
+        "android.permission.READ_CALENDAR",
+        "android.permission.WRITE_CALENDAR",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.USE_FINGERPRINT",
+        "android.permission.USE_BIOMETRIC",
+        "android.permission.WRITE_SETTINGS",
+        "android.permission.VIBRATE",
+        "android.permission.READ_PHONE_STATE",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.WAKE_LOCK",
+        "android.permission.com.anddoes.launcher.permission.UPDATE_COUNT",
+        "android.permission.com.android.launcher.permission.INSTALL_SHORTCUT",
+        "android.permission.com.google.android.c2dm.permission.RECEIVE",
+        "android.permission.com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+        "android.permission.com.google.android.providers.gsf.permission.READ_GSERVICES",
+        "android.permission.com.htc.launcher.permission.READ_SETTINGS",
+        "android.permission.com.htc.launcher.permission.UPDATE_SHORTCUT",
+        "android.permission.com.majeur.launcher.permission.UPDATE_BADGE",
+        "android.permission.com.sec.android.provider.badge.permission.READ",
+        "android.permission.com.sec.android.provider.badge.permission.WRITE",
+        "android.permission.com.sonyericsson.home.permission.BROADCAST_BADGE"
+      ],
+      "useNextNotificationsApi": true,
+      "config": {
+        "googleMobileAdsAppId": "",
+        "googleMaps": {
+          "apiKey": ""
+        }
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "dorm.finder",
+      "config": {
+        "googleMobileAdsAppId": "",
+        "googleMapsApiKey": ""
+      }
+    },
+    "splash": {
+      "image": "./dormguidelogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "extra": {
+      "eas": {
+        "projectId": ""
+      }
+    }
+  }
+}
